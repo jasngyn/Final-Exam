@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/* CSS Document */
+/* ALL WRITTEN ANSWERS ARE AT THE BOTTOM */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  font-size: 10px; 
+  height: 100%; 
+}
+
+body {
+  height: 100%; 
+}
+
+header {
+  line-height: 1.5;
+  align-items: center;
+  box-sizing: border-box; 
+  background-color: #fff;
+  border-bottom: 1px solid #DEE2E6;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 5rem;
+}
+
+#p2 {
+ color: #1B1B1B;
+ font-weight: normal;
+ font-size: 1.8rem;
+ font-weight: 400;
+ line-height: 1.5;
+ box-sizing: border-box;
+ padding-right: 1rem;
+ padding-left: 1rem;
+ margin-right: auto;
+ margin-left: auto;
+ padding-bottom: 1.5rem;
+ text-align: center;
+ max-width: 700px;
+}
+
+
+nav #listOne {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+	margin-right: 600px;
+  }
+
+#listOne li {
+	display: inline;
+	margin: 1em;
+	font-size: 1.5rem;
+}
+
+p:nth-child(1) {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+#listOne li:nth-child(5) {
+	border: 1px solid #24A6CD;
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+section {
+	float: left;
+	width: 30%;
+	margin: 0 1.5% 24px 1.5%;
+}
+
+.container {
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+img {
+  max-width: 100%; 
+}
+
+a:link {
+ color: #000;
+ text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+/*button styles*/ 
+
+/* EXPLAIN THIS STYLE RULE (1 mark) */ 
+
+.pricingTable button {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+.pricingTable {
+ margin: auto;
+ width: auto;
+ font-size: 1rem;
+ font-weight: 400;
+ line-height: 1.5;
+ color: #212529;
+ box-sizing: border-box;
+ display: flex;
+ flex-flow: row wrap;
+ margin-right: -15px;
+ margin-left: -15px;
+ margin-bottom: 1rem;
+ text-align: center;
+}
+
+.pricingTable section:nth-child(1),
+.pricingTable section:nth-child(2),
+.pricingTable section:nth-child(3){
+ font-size: 1rem;
+ font-weight: 400;
+ line-height: 1.5;
+ color: #212529;
+ text-align: center;
+ box-sizing: border-box;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ word-wrap: break-word;
+ background-color: #fff;
+ background-clip: border-box;
+ border: 1px solid rgba(0,0,0,.125);
+ border-radius: .25rem;
+ box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+ margin-bottom: 1.5rem;
+ flex: 1 0 0%;
+ margin-right: 15px;
+ margin-left: 15px;
+ min-width: 220px;
+}
+
+.pricingTable section:first-of-type button {
+  border: 1px solid #007bff;  
+}
+
+
+/* FIX THIS STYLE RULE  (2 marks) */ 
+
+/* Added comma and colon after 'background-color' */
+.pricingTable section:nth-of-type(2) button, 
+.pricingTable section:nth-of-type(3) button {
+  background-color: #007bff; 
+  color: #fff; 
+  border: transparent; 
+}
+
+footer {
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+
+footer div {
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+box-sizing: border-box;
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+flex: 0 0 100%;
+flex-basis: 0;
+flex-grow: 1;
+max-width: 100%;
+}
+
+/* -------------------------------------------------------------------------------- /
+
+ANSWERS TO QUESTIONS:
+
+1. Common layout patterns include: Z pattern, Grid layout, and possible similarities to a One Colun layout
+
+2. The code displays the selector as the '.pricingTable' class including the button element. Each declaration stated under the selector indicates: padding, which generates space around the element's content, font-size which determines the font size on the webpage, line-height that spaces the text from top to bottom and the border-radius which defines the radius of the element's corners.
+
+*/
